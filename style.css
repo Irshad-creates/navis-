@@ -11,6 +11,17 @@ html, body{
 
 /* setction t-1 */
 
+
+#t1{
+    display: grid;
+    grid-template-columns:"1fr 1fr 1fr 1fr";
+    grid-template-rows: " auto auto auto auto";
+    grid-template-areas:"t1-head t1-head t1-head t1-head "
+                        "t1-section t1-section t1-section t1-section "
+                        "t1-main t1-main t1-main t1-main"
+                        "t1-foot1 t1-foot2 t1-foot3 t1-foot4";
+}
+
 #t1-head{
     height:70px;
     width: 100%;
@@ -18,7 +29,9 @@ html, body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    grid-area:"t1-head";
 }
+
 #t1-head img{
     height: 45px;
     
