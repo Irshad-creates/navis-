@@ -118,3 +118,33 @@ html, body{
     background-color: #0161FE;
     border: none;
 }
+
+/* t1 main */
+
+#t1-main{
+    /* grid-area: t1-main;
+    margin-top: 20px;
+    min-height:900px ;
+    width: 100%;
+    padding: 20px 60px;
+    background-image: url(/img/t1-hero.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; */
+    
+    grid-area: t1-main;
+    padding: 20px 60px;
+    margin-top: 20px;
+    background-color: #d9d9d9;
+    background-image: url(/img/t1-hero.webp);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    min-height: 450px;
+}
+/* 
+#t1-main img{
+    padding: 20px 60px;
+    border-radius: 25px;
+} */
