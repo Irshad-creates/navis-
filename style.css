@@ -8,14 +8,18 @@ html, body{
     height: 100%;
     width: 100%;
 }
+@font-face {
+    font-family: f1;
+    src: url(/img/NimbusSans-Regular.otf);
+}
 
 /* setction t-1 */
 
 
 #t1{
     display: grid;
-    grid-template-columns:"1fr 1fr 1fr 1fr";
-    grid-template-rows: " auto auto auto auto";
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto ;
     grid-template-areas:"t1-head t1-head t1-head t1-head "
                         "t1-section t1-section t1-section t1-section "
                         "t1-main t1-main t1-main t1-main"
@@ -25,11 +29,11 @@ html, body{
 #t1-head{
     height:70px;
     width: 100%;
-    padding: 55px 50px;
+    padding: 60px 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    grid-area:"t1-head";
+    grid-area:t1-head;
 }
 
 #t1-head img{
@@ -39,7 +43,7 @@ html, body{
 
 .t1-head-center a{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 19px;
     margin-right: 15px;
     color: black;
 }
@@ -50,7 +54,7 @@ html, body{
     border-radius: 25px;
     margin-right:15px ;
 }
-.t1-head-right button:nth-of-type(1){
+.t1-head-right .btn1{
     color:#0161FE;
     background-color: none;
     border: 2px solid #0161FE;
@@ -58,7 +62,58 @@ html, body{
 
 /* hover pending */
 
-.t1-head-right button:nth-of-type(2){
+.t1-head-right .btn2{
+    color: white;
+    background-color: #0161FE;
+    border: none;
+}
+
+/* t1 section */
+
+#t1-section{
+    grid-area: t1-section ;
+    display: flex;
+    justify-content:space-evenly;
+    /* gap: 20px; */
+    height: auto;
+    width: 100%;
+    padding: 20px 60px;
+}
+
+#t1-leftinfo{
+    width: 525px;
+    font-size: 35px;
+    font-weight: 100;
+    font-family: f1;
+}
+
+#t1-rightinfo{
+    /* padding-left: 20px; */
+    font-size: 25px;
+    flex: 1;
+    margin-left: -50px;
+
+}
+
+#t1-rightinfo button{
+    font-size: 20px;
+    margin-top:15px ;
+    padding: 12px 24px;
+    border-radius: 25px;
+    margin-right:15px ;
+    cursor: pointer;
+    
+}
+
+
+#t1-rightinfo .btn1{
+    color:#0161FE;
+    background-color: none;
+    border: 2px solid #0161FE;
+}
+
+
+#t1-rightinfo .btn2{
     color: white;
     background-color: #0161FE;
     border: none;
