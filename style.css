@@ -9,8 +9,8 @@ html, body{
     width: 100%;
 }
 @font-face {
-    font-family: f1;
-    src: url(/img/NimbusSans-Regular.otf);
+    font-family:f1;
+    src: url(/font/NimbusSans-Regular.otf);
 }
 
 /* setction t-1 */
@@ -162,3 +162,42 @@ html, body{
     font-size: 20px;
     color: #716f6f;
 }
+
+/* expert section */
+
+#expert-section{
+    /* display: flex; */
+    background-color: #f0efef;
+    border-radius: 25px;
+    padding: 100px 50px;
+    margin: 0 20px;
+}
+
+#expert-section button{
+    font-size: 20px;
+    padding: 12px 24px;
+    border-radius: 25px;
+    margin-right:15px ;
+    cursor: pointer ;
+}
+
+#expert-section .expert-container{
+    display: flex;
+}
+#ex-co1 {
+    padding-top:350px ;
+    font-family:f1 ;
+    font-size: 35px;
+    font-weight: 200;
+}
+#ex-co2{
+    padding-top: 40px;
+    font-size: 20px;
+    color: #716f6f;;
+}
+#ex-container2 img{
+    height: 700px;
+    margin-right: 50px;
+    border-radius: 25px;
+}
+
