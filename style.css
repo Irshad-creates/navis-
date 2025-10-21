@@ -323,4 +323,101 @@ html, body{
   opacity: 0.8;
 }
 
+/* milestone section */
 
+#milestone-section{
+    background-color: #f0efef;
+    border-radius: 25px;
+    padding: 50px 50px;
+    margin: 0 20px;
+}
+
+#milestone-section button{
+     font-size: 20px;
+    padding: 12px 24px;
+    border-radius: 25px;
+    margin-left:15px ;
+    cursor: pointer ;
+}
+
+.mile-container{
+    width: 100%;
+    display: flex;
+    padding: 40px 20px; 
+    gap: 250px;
+}
+
+#mi-coleft h2{
+    
+    font-size: 35px;
+    font-weight: 500;
+}
+#mi-coright  p{
+    padding-top: 10px;
+    font-size: 20px;
+    color:#716f6f
+}
+/* milestone section main */
+.mile-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px 20px;
+}
+.mile-img img{
+    width: 600px;
+    border-radius: 25px;
+}
+
+.timeline{
+    display:flex ;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.timeline-item {
+    display: flex;
+    gap: 20px;
+    
+    /* align-items: flex-start; */
+}
+
+
+.active .timeline-number{
+  background-color: #0061fe;
+  color: white;
+  border: 1px solid #0061fe;
+}
+.timeline-number{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #e5e5e5;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      flex-shrink: 0; 
+}
+.timeline-text{
+    padding-top: 12px;
+    color: #666666;
+}
+.active .timeline-text h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-weight: 300;
+    color: black;
+}
+.active .timeline-text p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #666666;
+}
+.timeline-text h4{
+    padding-top: 10px;
+    color: #666666;
+}
+.timeline-text h5{
+    font-size: 15px;
+}
