@@ -421,3 +421,52 @@ html, body{
 .timeline-text h5{
     font-size: 15px;
 }
+
+/* testomonial section */
+.testomonial-section{
+background-color: #f0efef;
+    border-radius: 25px;
+    padding: 50px 50px;
+    margin: 20px 20px;
+    display: flex;
+}
+
+.t-secright img{
+    height: 500px;
+    border-radius: 25px;
+}
+
+.tsec-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+#tsec-1 img{
+    width: 200px;
+}
+
+#tsec-2 i{
+    color: #0061fe;
+    font-size: 25px;
+}
+
+
+
+.t-secleft p{
+    padding-top: 100px;
+    font-size: 20px;
+}
+.test-author{
+    padding-top: 70px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    gap: 30px;
+}
+.test-author :nth-child(2){
+    color: #666666
+}
+
