@@ -470,3 +470,40 @@ background-color: #f0efef;
     color: #666666
 }
 
+/* ṃapp section */
+
+.mapsection{
+    padding: 70px 50px;
+    margin: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mapright img{
+    border-radius: 25px;
+    width: 600px;
+}
+
+.mapleft button{
+    font-size: 20px;
+    padding: 12px 24px;
+    border-radius: 25px;
+    /* margin-left:15px ; */
+    cursor: pointer ; 
+}
+.upperleft h2{
+    font-size: 40px;
+    font-weight: 300;
+}
+.contactmap{
+    padding-top: 200px;
+}
+.contactmap h3{
+    font-size: 23px;
+    color: #666666;
+    padding-bottom: 10px;
+}
+.contactmap h2{
+    font-size: 30px px;
+    padding-bottom: 10px;
+ }
