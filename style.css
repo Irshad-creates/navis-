@@ -513,8 +513,6 @@ background-color: #f0efef;
 .mapsocial{
     display: flex;
     gap: 20px;
-    /* justify-content: center; */
-    /* align-items: center; */
 }
 .mapsocial a{
     height: 50px;
@@ -535,4 +533,126 @@ background-color: #f0efef;
     background-color: #0061fe;
     color: white;
     transition: all 0.3s;
+}
+
+/* footer section  */
+.footer{
+    background-color:#1A1A1A;
+    color: white;
+    border-radius: 25px;
+    padding: 50px 50px;
+    margin: 20px 20px;
+    /* display: flex; */
+}
+.footlogo{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom:10px ;
+}
+.footlogo img{  
+    width: 50px;
+}
+.footlogo h1{
+    font-weight: 500;
+}
+
+.footupper h2{
+    color: #CCCCCC;
+    font-weight: 300;
+}
+.newsinput{
+    display: flex;
+    gap: 10px;
+    margin-top:20px;
+}
+.newsinput input{
+    height: 25px;
+    width: 80%;
+    border-radius: 25px;
+    padding: 20px 20px;
+    color: #CCCCCC;
+    background-color: #1A1A1A;
+    border: none;
+    border: 1px solid gray;
+}
+.newsinput button{
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-right:15px ;
+    background-color: #0161FE;
+    cursor: pointer;
+    border: none;
+    border: 1px solid white;
+    transition: all 0.4s;
+}
+.newsinput button:hover{
+    background-color: #0155dd;
+    color: white;
+}
+
+.footupper{
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+.footright{
+    display: flex;
+    padding-top: 30px;
+    gap: 100px;
+}
+.foot1 h2{
+    padding-bottom: 20px;
+    font-weight: 700px;
+    color: white;
+    font-size: 25px;
+}
+.footlinks{
+    display: flex;
+    flex-direction: column;
+}
+.footlinks a{
+    color: #CCCCCC;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+/* foot bottom*/
+.footbottom{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border-top:1px solid #737272 ;
+    padding-top:100px ;
+}
+.footbottom p,h4{
+    color: #666666;
+}
+
+
+.footsocial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.footsocial a{
+  height: 35px;
+  width: 35px;
+  display: flex; /* centers the icon inside */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-decoration: none;
+  font-size: 20px;
+  color: #c2c1c1;
+  background-color: #1A1A1A;
+  border-radius: 50%;
+  border: 0.5px solid rgb(200, 200, 200);
+  margin: 2px;
+  transition: 0.3s ease;
 }
