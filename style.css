@@ -492,18 +492,47 @@ background-color: #f0efef;
     cursor: pointer ; 
 }
 .upperleft h2{
+    padding-top: 10px;
     font-size: 40px;
     font-weight: 300;
 }
 .contactmap{
-    padding-top: 200px;
+    padding-top: 100px;
 }
 .contactmap h3{
     font-size: 23px;
     color: #666666;
+    padding-top: 10px;
     padding-bottom: 10px;
+    font-weight: 300;
 }
 .contactmap h2{
-    font-size: 30px px;
+    font-size: 30px ;
     padding-bottom: 10px;
- }
+}
+.mapsocial{
+    display: flex;
+    gap: 20px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.mapsocial a{
+    height: 50px;
+    width: 50px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    background-color: #f7f4f4;
+    border-radius: 50%;
+    border: 0.5px solid rgb(203, 202, 202);
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mapsocial a:hover{
+    background-color: #0061fe;
+    color: white;
+    transition: all 0.3s;
+}
